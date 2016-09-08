@@ -10,14 +10,9 @@
 #import "CMAttributeRun.h"
 #import "CMCascadingAttributeStack.h"
 #import "CMStack.h"
-#import "CMHTMLElementTransformer.h"
-#import "CMHTMLElement.h"
-#import "CMHTMLUtilities.h"
 #import "CMTextAttributes.h"
 #import "CMNode.h"
 #import "CMParser.h"
-
-#import "Ono.h"
 
 @interface CMAttributedStringRenderer () <CMParserDelegate>
 @end
@@ -40,12 +35,6 @@
         _tagNameToTransformerMapping = [[NSMutableDictionary alloc] init];
     }
     return self;
-}
-
-- (void)registerHTMLElementTransformer:(id<CMHTMLElementTransformer>)transformer
-{
-    NSParameterAssert(transformer);
-    _tagNameToTransformerMapping[[transformer.class tagName]] = transformer;
 }
 
 - (NSAttributedString *)render
@@ -81,12 +70,7 @@
 
 - (void)parser:(CMParser *)parser foundText:(NSString *)text
 {
-    CMHTMLElement *element = [_HTMLStack peek];
-    if (element != nil) {
-        [element.buffer appendString:text];
-    } else {
-        [self appendString:text];
-    }
+	[self appendString:text];
 }
 
 - (void)parser:(CMParser *)parser didStartHeaderWithLevel:(NSInteger)level
@@ -147,42 +131,6 @@
 - (void)parser:(CMParser *)parser didEndLinkWithURL:(NSURL *)URL title:(NSString *)title
 {
     [_attributeStack pop];
-}
-
-- (void)parser:(CMParser *)parser foundHTML:(NSString *)HTML
-{
-    NSString *tagName = CMTagNameFromHTMLTag(HTML);
-    if (tagName.length != 0) {
-        CMHTMLElement *element = [self newHTMLElementForTagName:tagName HTML:HTML];
-        if (element != nil) {
-            [self appendHTMLElement:element];
-        }
-    }
-}
-
-- (void)parser:(CMParser *)parser foundInlineHTML:(NSString *)HTML
-{
-    NSString *tagName = CMTagNameFromHTMLTag(HTML);
-    if (tagName.length != 0) {
-        CMHTMLElement *element = nil;
-        if (CMIsHTMLVoidTagName(tagName)) {
-            element = [self newHTMLElementForTagName:tagName HTML:HTML];
-            if (element != nil) {
-                [self appendHTMLElement:element];
-            }
-        } else if (CMIsHTMLClosingTag(HTML)) {
-            if ((element = [_HTMLStack pop])) {
-                NSAssert([element.tagName isEqualToString:tagName], @"Closing tag does not match opening tag");
-                [element.buffer appendString:HTML];
-                [self appendHTMLElement:element];
-            }
-        } else if (CMIsHTMLTag(HTML)) {
-            element = [self newHTMLElementForTagName:tagName HTML:HTML];
-            if (element != nil) {
-                [_HTMLStack push:element];
-            }
-        }
-    }
 }
 
 - (void)parser:(CMParser *)parser foundCodeBlock:(NSString *)code info:(NSString *)info
@@ -273,17 +221,6 @@
 
 #pragma mark - Private
 
-- (CMHTMLElement *)newHTMLElementForTagName:(NSString *)tagName HTML:(NSString *)HTML
-{
-    NSParameterAssert(tagName);
-    id<CMHTMLElementTransformer> transformer = _tagNameToTransformerMapping[tagName];
-    if (transformer != nil) {
-        CMHTMLElement *element = [[CMHTMLElement alloc] initWithTransformer:transformer];
-        [element.buffer appendString:HTML];
-        return element;
-    }
-    return nil;
-}
 
 - (void)appendLineBreakIfNotTightForNode:(CMNode *)node
 {
@@ -299,27 +236,5 @@
     [_buffer appendAttributedString:attrString];
 }
 
-- (void)appendHTMLElement:(CMHTMLElement *)element
-{
-    NSError *error = nil;
-    ONOXMLDocument *document = [ONOXMLDocument HTMLDocumentWithString:element.buffer encoding:NSUTF8StringEncoding error:&error];
-    if (document == nil) {
-        NSLog(@"Error creating HTML document for buffer \"%@\": %@", element.buffer, error);
-        return;
-    }
-    
-    ONOXMLElement *XMLElement = document.rootElement[0][0];
-    NSDictionary *attributes = _attributeStack.cascadedAttributes;
-    NSAttributedString *attrString = [element.transformer attributedStringForElement:XMLElement attributes:attributes];
-    
-    if (attrString != nil) {
-        CMHTMLElement *parentElement = [_HTMLStack peek];
-        if (parentElement == nil) {
-            [_buffer appendAttributedString:attrString];
-        } else {
-            [parentElement.buffer appendString:attrString.string];
-        }
-    }
-}
 
 @end

@@ -15,11 +15,9 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         let path = NSBundle.mainBundle().pathForResource("test", ofType: "md")!
-        let document = CMDocument(contentsOfFile: path, options: nil)
+        let document = CMDocument(contentsOfFile: path, options: CMDocumentOptions.Sourcepos)
         let renderer = CMAttributedStringRenderer(document: document, attributes: CMTextAttributes())
-        renderer.registerHTMLElementTransformer(CMHTMLStrikethroughTransformer())
-        renderer.registerHTMLElementTransformer(CMHTMLSuperscriptTransformer())
-        renderer.registerHTMLElementTransformer(CMHTMLUnderlineTransformer())
+        
         textView.attributedText = renderer.render()
     }
 }

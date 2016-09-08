@@ -7,10 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		06D9F8771A70465700C00B67 /* CMHTMLUnderlineTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = 06D9F8751A70465700C00B67 /* CMHTMLUnderlineTransformer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		06D9F8781A70465700C00B67 /* CMHTMLUnderlineTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = 06D9F8751A70465700C00B67 /* CMHTMLUnderlineTransformer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		06D9F8791A70465700C00B67 /* CMHTMLUnderlineTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 06D9F8761A70465700C00B67 /* CMHTMLUnderlineTransformer.m */; };
-		06D9F87A1A70465700C00B67 /* CMHTMLUnderlineTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 06D9F8761A70465700C00B67 /* CMHTMLUnderlineTransformer.m */; };
 		30A07BCC1B5545A50097CEF1 /* render.c in Sources */ = {isa = PBXBuildFile; fileRef = 30A07BCB1B5545A50097CEF1 /* render.c */; };
 		30A07BCD1B5545A50097CEF1 /* render.c in Sources */ = {isa = PBXBuildFile; fileRef = 30A07BCB1B5545A50097CEF1 /* render.c */; };
 		720DA5811A68A00900DD05AF /* CocoaMarkdown.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 729F53FB1A68649200CC7448 /* CocoaMarkdown.framework */; };
@@ -34,20 +30,8 @@
 		725115E11A6970A300337419 /* CMStack.h in Headers */ = {isa = PBXBuildFile; fileRef = 725115DE1A6970A300337419 /* CMStack.h */; };
 		725115E21A6970A300337419 /* CMStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 725115DF1A6970A300337419 /* CMStack.m */; };
 		725115E31A6970A300337419 /* CMStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 725115DF1A6970A300337419 /* CMStack.m */; };
-		725115F51A6972AE00337419 /* CMHTMLElementTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = 725115F41A6972AE00337419 /* CMHTMLElementTransformer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		725115F61A6972AE00337419 /* CMHTMLElementTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = 725115F41A6972AE00337419 /* CMHTMLElementTransformer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		725115FC1A69735400337419 /* Ono.h in Headers */ = {isa = PBXBuildFile; fileRef = 725115F91A69735400337419 /* Ono.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		725115FD1A69735400337419 /* Ono.h in Headers */ = {isa = PBXBuildFile; fileRef = 725115F91A69735400337419 /* Ono.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		725115FE1A69735400337419 /* ONOXMLDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = 725115FA1A69735400337419 /* ONOXMLDocument.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		725115FF1A69735400337419 /* ONOXMLDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = 725115FA1A69735400337419 /* ONOXMLDocument.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		725116001A69735400337419 /* ONOXMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 725115FB1A69735400337419 /* ONOXMLDocument.m */; };
-		725116011A69735400337419 /* ONOXMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 725115FB1A69735400337419 /* ONOXMLDocument.m */; };
 		725116031A6973A700337419 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 725116021A6973A700337419 /* libxml2.dylib */; };
 		725116051A6973AC00337419 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 725116041A6973AC00337419 /* libxml2.dylib */; };
-		725116091A69760A00337419 /* CMHTMLElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 725116071A69760A00337419 /* CMHTMLElement.h */; };
-		7251160A1A69760A00337419 /* CMHTMLElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 725116071A69760A00337419 /* CMHTMLElement.h */; };
-		7251160B1A69760A00337419 /* CMHTMLElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 725116081A69760A00337419 /* CMHTMLElement.m */; };
-		7251160C1A69760A00337419 /* CMHTMLElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 725116081A69760A00337419 /* CMHTMLElement.m */; };
 		725A5FEB1AEC5F9F00D6342C /* blocks.c in Sources */ = {isa = PBXBuildFile; fileRef = 725A5FDA1AEC5F9F00D6342C /* blocks.c */; };
 		725A5FEC1AEC5F9F00D6342C /* blocks.c in Sources */ = {isa = PBXBuildFile; fileRef = 725A5FDA1AEC5F9F00D6342C /* blocks.c */; };
 		725A5FED1AEC5F9F00D6342C /* buffer.c in Sources */ = {isa = PBXBuildFile; fileRef = 725A5FDB1AEC5F9F00D6342C /* buffer.c */; };
@@ -81,28 +65,6 @@
 		725A600B1AEC5F9F00D6342C /* xml.c in Sources */ = {isa = PBXBuildFile; fileRef = 725A5FEA1AEC5F9F00D6342C /* xml.c */; };
 		725A600C1AEC5F9F00D6342C /* xml.c in Sources */ = {isa = PBXBuildFile; fileRef = 725A5FEA1AEC5F9F00D6342C /* xml.c */; };
 		72736B671A7B467E0046B957 /* CocoaMarkdown.h in Headers */ = {isa = PBXBuildFile; fileRef = 729F53DF1A68641400CC7448 /* CocoaMarkdown.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		72772BD61A699ACB0059936C /* CMHTMLUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 72772BD41A699ACA0059936C /* CMHTMLUtilities.h */; };
-		72772BD71A699ACB0059936C /* CMHTMLUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 72772BD41A699ACA0059936C /* CMHTMLUtilities.h */; };
-		72772BD81A699ACB0059936C /* CMHTMLUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 72772BD51A699ACA0059936C /* CMHTMLUtilities.m */; };
-		72772BD91A699ACB0059936C /* CMHTMLUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 72772BD51A699ACA0059936C /* CMHTMLUtilities.m */; };
-		72772BE61A69ABB20059936C /* CMHTMLStrikethroughTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = 72772BE41A69ABB20059936C /* CMHTMLStrikethroughTransformer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		72772BE71A69ABB20059936C /* CMHTMLStrikethroughTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = 72772BE41A69ABB20059936C /* CMHTMLStrikethroughTransformer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		72772BE81A69ABB20059936C /* CMHTMLStrikethroughTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 72772BE51A69ABB20059936C /* CMHTMLStrikethroughTransformer.m */; };
-		72772BE91A69ABB20059936C /* CMHTMLStrikethroughTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 72772BE51A69ABB20059936C /* CMHTMLStrikethroughTransformer.m */; };
-		72772BEC1A6A22720059936C /* CMHTMLSuperscriptTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = 72772BEA1A6A22720059936C /* CMHTMLSuperscriptTransformer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		72772BED1A6A22720059936C /* CMHTMLSuperscriptTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = 72772BEA1A6A22720059936C /* CMHTMLSuperscriptTransformer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		72772BEE1A6A22720059936C /* CMHTMLSuperscriptTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 72772BEB1A6A22720059936C /* CMHTMLSuperscriptTransformer.m */; };
-		72772BEF1A6A22720059936C /* CMHTMLSuperscriptTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 72772BEB1A6A22720059936C /* CMHTMLSuperscriptTransformer.m */; };
-		72772BF21A6A28A70059936C /* CMHTMLScriptTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = 72772BF01A6A28A70059936C /* CMHTMLScriptTransformer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		72772BF31A6A28A70059936C /* CMHTMLScriptTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = 72772BF01A6A28A70059936C /* CMHTMLScriptTransformer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		72772BF41A6A28A70059936C /* CMHTMLScriptTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 72772BF11A6A28A70059936C /* CMHTMLScriptTransformer.m */; };
-		72772BF51A6A28A70059936C /* CMHTMLScriptTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 72772BF11A6A28A70059936C /* CMHTMLScriptTransformer.m */; };
-		72772BF71A6A29810059936C /* CMHTMLScriptTransformer_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 72772BF61A6A29810059936C /* CMHTMLScriptTransformer_Private.h */; };
-		72772BF81A6A29810059936C /* CMHTMLScriptTransformer_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 72772BF61A6A29810059936C /* CMHTMLScriptTransformer_Private.h */; };
-		72772BFB1A6A2B5C0059936C /* CMHTMLSubscriptTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = 72772BF91A6A2B5C0059936C /* CMHTMLSubscriptTransformer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		72772BFC1A6A2B5C0059936C /* CMHTMLSubscriptTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = 72772BF91A6A2B5C0059936C /* CMHTMLSubscriptTransformer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		72772BFD1A6A2B5C0059936C /* CMHTMLSubscriptTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 72772BFA1A6A2B5C0059936C /* CMHTMLSubscriptTransformer.m */; };
-		72772BFE1A6A2B5C0059936C /* CMHTMLSubscriptTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 72772BFA1A6A2B5C0059936C /* CMHTMLSubscriptTransformer.m */; };
 		728FA12F1AEED87900C7A368 /* CMDocument_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 728FA12E1AEED87900C7A368 /* CMDocument_Private.h */; };
 		728FA1301AEED87900C7A368 /* CMDocument_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 728FA12E1AEED87900C7A368 /* CMDocument_Private.h */; };
 		729F53E01A68641400CC7448 /* CocoaMarkdown.h in Headers */ = {isa = PBXBuildFile; fileRef = 729F53DF1A68641400CC7448 /* CocoaMarkdown.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -150,14 +112,6 @@
 		72C17A821A6EB75800212F17 /* CMDocument+AttributedStringAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 72C17A7F1A6EB75800212F17 /* CMDocument+AttributedStringAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		72C17A831A6EB75800212F17 /* CMDocument+AttributedStringAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 72C17A801A6EB75800212F17 /* CMDocument+AttributedStringAdditions.m */; };
 		72C17A841A6EB75800212F17 /* CMDocument+AttributedStringAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 72C17A801A6EB75800212F17 /* CMDocument+AttributedStringAdditions.m */; };
-		72C17A931A6EBA3300212F17 /* CMHTMLRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 72C17A911A6EBA3300212F17 /* CMHTMLRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		72C17A941A6EBA3300212F17 /* CMHTMLRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 72C17A911A6EBA3300212F17 /* CMHTMLRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		72C17A951A6EBA3300212F17 /* CMHTMLRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 72C17A921A6EBA3300212F17 /* CMHTMLRenderer.m */; };
-		72C17A961A6EBA3300212F17 /* CMHTMLRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 72C17A921A6EBA3300212F17 /* CMHTMLRenderer.m */; };
-		72C17A991A6EBD7800212F17 /* CMDocument+HTMLAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 72C17A971A6EBD7800212F17 /* CMDocument+HTMLAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		72C17A9A1A6EBD7800212F17 /* CMDocument+HTMLAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 72C17A971A6EBD7800212F17 /* CMDocument+HTMLAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		72C17A9B1A6EBD7800212F17 /* CMDocument+HTMLAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 72C17A981A6EBD7800212F17 /* CMDocument+HTMLAdditions.m */; };
-		72C17A9C1A6EBD7800212F17 /* CMDocument+HTMLAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 72C17A981A6EBD7800212F17 /* CMDocument+HTMLAdditions.m */; };
 		72C17A9E1A6EBE5600212F17 /* CMHTMLRendererSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 72C17A9D1A6EBE5600212F17 /* CMHTMLRendererSpec.m */; };
 		72C17A9F1A6EBE5600212F17 /* CMHTMLRendererSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 72C17A9D1A6EBE5600212F17 /* CMHTMLRendererSpec.m */; };
 		72FE7E9B1A68684000F23F46 /* test.md in Resources */ = {isa = PBXBuildFile; fileRef = 72FE7E981A68683300F23F46 /* test.md */; };
@@ -176,6 +130,41 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		30BD9FC71D817E370077F16E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 729F54891A68663300CC7448 /* Nimble.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1F5DF1551BDCA0CE00C3A531;
+			remoteInfo = "Nimble-tvOS";
+		};
+		30BD9FC91D817E370077F16E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 729F54891A68663300CC7448 /* Nimble.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1F5DF15E1BDCA0CE00C3A531;
+			remoteInfo = "Nimble-tvOSTests";
+		};
+		30BD9FD41D817E370077F16E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 729F548C1A68663400CC7448 /* Quick.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1F118CD51BDCA4AB005013A2;
+			remoteInfo = "Quick-tvOS";
+		};
+		30BD9FD61D817E370077F16E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 729F548C1A68663400CC7448 /* Quick.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1F118CDE1BDCA4AB005013A2;
+			remoteInfo = "Quick-tvOSTests";
+		};
+		30BD9FD81D817E370077F16E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 729F548C1A68663400CC7448 /* Quick.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1F118CF01BDCA4BB005013A2;
+			remoteInfo = "QuickFocused-tvOSTests";
+		};
 		720DA57F1A68A00300DD05AF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 729F53D11A68641300CC7448 /* Project object */;
@@ -302,8 +291,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		06D9F8751A70465700C00B67 /* CMHTMLUnderlineTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMHTMLUnderlineTransformer.h; sourceTree = "<group>"; };
-		06D9F8761A70465700C00B67 /* CMHTMLUnderlineTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMHTMLUnderlineTransformer.m; sourceTree = "<group>"; };
 		30A07BCB1B5545A50097CEF1 /* render.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = render.c; path = External/cmark/src/render.c; sourceTree = "<group>"; };
 		722E33DE1A68E7E4004DE919 /* CMAttributeRun.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMAttributeRun.h; sourceTree = "<group>"; };
 		722E33DF1A68E7E4004DE919 /* CMAttributeRun.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMAttributeRun.m; sourceTree = "<group>"; };
@@ -313,14 +300,8 @@
 		722E33EB1A68EADA004DE919 /* CMCascadingAttributeStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMCascadingAttributeStack.m; sourceTree = "<group>"; };
 		725115DE1A6970A300337419 /* CMStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMStack.h; sourceTree = "<group>"; };
 		725115DF1A6970A300337419 /* CMStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMStack.m; sourceTree = "<group>"; };
-		725115F41A6972AE00337419 /* CMHTMLElementTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMHTMLElementTransformer.h; sourceTree = "<group>"; };
-		725115F91A69735400337419 /* Ono.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Ono.h; path = External/Ono/Ono/Ono.h; sourceTree = "<group>"; };
-		725115FA1A69735400337419 /* ONOXMLDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ONOXMLDocument.h; path = External/Ono/Ono/ONOXMLDocument.h; sourceTree = "<group>"; };
-		725115FB1A69735400337419 /* ONOXMLDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ONOXMLDocument.m; path = External/Ono/Ono/ONOXMLDocument.m; sourceTree = "<group>"; };
 		725116021A6973A700337419 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
 		725116041A6973AC00337419 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/usr/lib/libxml2.dylib; sourceTree = DEVELOPER_DIR; };
-		725116071A69760A00337419 /* CMHTMLElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMHTMLElement.h; sourceTree = "<group>"; };
-		725116081A69760A00337419 /* CMHTMLElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMHTMLElement.m; sourceTree = "<group>"; };
 		725A5FDA1AEC5F9F00D6342C /* blocks.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = blocks.c; path = External/cmark/src/blocks.c; sourceTree = "<group>"; };
 		725A5FDB1AEC5F9F00D6342C /* buffer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = buffer.c; path = External/cmark/src/buffer.c; sourceTree = "<group>"; };
 		725A5FDC1AEC5F9F00D6342C /* cmark_ctype.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = cmark_ctype.c; path = External/cmark/src/cmark_ctype.c; sourceTree = "<group>"; };
@@ -337,17 +318,6 @@
 		725A5FE81AEC5F9F00D6342C /* scanners.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = scanners.c; path = External/cmark/src/scanners.c; sourceTree = "<group>"; };
 		725A5FE91AEC5F9F00D6342C /* utf8.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = utf8.c; path = External/cmark/src/utf8.c; sourceTree = "<group>"; };
 		725A5FEA1AEC5F9F00D6342C /* xml.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = xml.c; path = External/cmark/src/xml.c; sourceTree = "<group>"; };
-		72772BD41A699ACA0059936C /* CMHTMLUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMHTMLUtilities.h; sourceTree = "<group>"; };
-		72772BD51A699ACA0059936C /* CMHTMLUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMHTMLUtilities.m; sourceTree = "<group>"; };
-		72772BE41A69ABB20059936C /* CMHTMLStrikethroughTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMHTMLStrikethroughTransformer.h; sourceTree = "<group>"; };
-		72772BE51A69ABB20059936C /* CMHTMLStrikethroughTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMHTMLStrikethroughTransformer.m; sourceTree = "<group>"; };
-		72772BEA1A6A22720059936C /* CMHTMLSuperscriptTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMHTMLSuperscriptTransformer.h; sourceTree = "<group>"; };
-		72772BEB1A6A22720059936C /* CMHTMLSuperscriptTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMHTMLSuperscriptTransformer.m; sourceTree = "<group>"; };
-		72772BF01A6A28A70059936C /* CMHTMLScriptTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMHTMLScriptTransformer.h; sourceTree = "<group>"; };
-		72772BF11A6A28A70059936C /* CMHTMLScriptTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMHTMLScriptTransformer.m; sourceTree = "<group>"; };
-		72772BF61A6A29810059936C /* CMHTMLScriptTransformer_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMHTMLScriptTransformer_Private.h; sourceTree = "<group>"; };
-		72772BF91A6A2B5C0059936C /* CMHTMLSubscriptTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMHTMLSubscriptTransformer.h; sourceTree = "<group>"; };
-		72772BFA1A6A2B5C0059936C /* CMHTMLSubscriptTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMHTMLSubscriptTransformer.m; sourceTree = "<group>"; };
 		728FA12E1AEED87900C7A368 /* CMDocument_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMDocument_Private.h; sourceTree = "<group>"; };
 		729F53DA1A68641400CC7448 /* CocoaMarkdown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CocoaMarkdown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		729F53DE1A68641400CC7448 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -380,10 +350,6 @@
 		729F54BC1A68673800CC7448 /* CMParserTestObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMParserTestObject.m; sourceTree = "<group>"; };
 		72C17A7F1A6EB75800212F17 /* CMDocument+AttributedStringAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CMDocument+AttributedStringAdditions.h"; sourceTree = "<group>"; };
 		72C17A801A6EB75800212F17 /* CMDocument+AttributedStringAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CMDocument+AttributedStringAdditions.m"; sourceTree = "<group>"; };
-		72C17A911A6EBA3300212F17 /* CMHTMLRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMHTMLRenderer.h; sourceTree = "<group>"; };
-		72C17A921A6EBA3300212F17 /* CMHTMLRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMHTMLRenderer.m; sourceTree = "<group>"; };
-		72C17A971A6EBD7800212F17 /* CMDocument+HTMLAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CMDocument+HTMLAdditions.h"; sourceTree = "<group>"; };
-		72C17A981A6EBD7800212F17 /* CMDocument+HTMLAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CMDocument+HTMLAdditions.m"; sourceTree = "<group>"; };
 		72C17A9D1A6EBE5600212F17 /* CMHTMLRendererSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMHTMLRendererSpec.m; sourceTree = "<group>"; };
 		72FE7E981A68683300F23F46 /* test.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = test.md; sourceTree = "<group>"; };
 		72FE7EC91A68692400F23F46 /* Example-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Example-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -461,19 +427,8 @@
 			isa = PBXGroup;
 			children = (
 				729F543E1A68650000CC7448 /* CommonMark */,
-				725115F81A69734100337419 /* Ono */,
 			);
 			name = External;
-			sourceTree = "<group>";
-		};
-		725115F81A69734100337419 /* Ono */ = {
-			isa = PBXGroup;
-			children = (
-				725115F91A69735400337419 /* Ono.h */,
-				725115FA1A69735400337419 /* ONOXMLDocument.h */,
-				725115FB1A69735400337419 /* ONOXMLDocument.m */,
-			);
-			name = Ono;
 			sourceTree = "<group>";
 		};
 		725116061A6973B200337419 /* Frameworks */ = {
@@ -488,7 +443,6 @@
 		7251160D1A69761700337419 /* Attributed Strings */ = {
 			isa = PBXGroup;
 			children = (
-				7251160F1A69762800337419 /* HTML */,
 				729F54141A6864F400CC7448 /* CMAttributedStringRenderer.h */,
 				729F54151A6864F400CC7448 /* CMAttributedStringRenderer.m */,
 				722E33DE1A68E7E4004DE919 /* CMAttributeRun.h */,
@@ -503,29 +457,6 @@
 				72C17A801A6EB75800212F17 /* CMDocument+AttributedStringAdditions.m */,
 			);
 			name = "Attributed Strings";
-			sourceTree = "<group>";
-		};
-		7251160F1A69762800337419 /* HTML */ = {
-			isa = PBXGroup;
-			children = (
-				725116071A69760A00337419 /* CMHTMLElement.h */,
-				725116081A69760A00337419 /* CMHTMLElement.m */,
-				725115F41A6972AE00337419 /* CMHTMLElementTransformer.h */,
-				72772BD41A699ACA0059936C /* CMHTMLUtilities.h */,
-				72772BD51A699ACA0059936C /* CMHTMLUtilities.m */,
-				72772BE41A69ABB20059936C /* CMHTMLStrikethroughTransformer.h */,
-				72772BE51A69ABB20059936C /* CMHTMLStrikethroughTransformer.m */,
-				72772BEA1A6A22720059936C /* CMHTMLSuperscriptTransformer.h */,
-				72772BEB1A6A22720059936C /* CMHTMLSuperscriptTransformer.m */,
-				72772BF91A6A2B5C0059936C /* CMHTMLSubscriptTransformer.h */,
-				72772BFA1A6A2B5C0059936C /* CMHTMLSubscriptTransformer.m */,
-				72772BF01A6A28A70059936C /* CMHTMLScriptTransformer.h */,
-				72772BF11A6A28A70059936C /* CMHTMLScriptTransformer.m */,
-				72772BF61A6A29810059936C /* CMHTMLScriptTransformer_Private.h */,
-				06D9F8751A70465700C00B67 /* CMHTMLUnderlineTransformer.h */,
-				06D9F8761A70465700C00B67 /* CMHTMLUnderlineTransformer.m */,
-			);
-			name = HTML;
 			sourceTree = "<group>";
 		};
 		729F53D01A68641300CC7448 = {
@@ -560,7 +491,6 @@
 				729F541F1A6864F400CC7448 /* CMPlatformDefines.h */,
 				72C17A8F1A6EB9AB00212F17 /* CommonMark */,
 				7251160D1A69761700337419 /* Attributed Strings */,
-				72C17A901A6EBA1B00212F17 /* HTML */,
 				729F53DD1A68641400CC7448 /* Supporting Files */,
 				725116061A6973B200337419 /* Frameworks */,
 			);
@@ -642,6 +572,8 @@
 				729F54961A68663400CC7448 /* NimbleTests.xctest */,
 				729F54981A68663400CC7448 /* Nimble.framework */,
 				729F549A1A68663400CC7448 /* NimbleTests.xctest */,
+				30BD9FC81D817E370077F16E /* Nimble.framework */,
+				30BD9FCA1D817E370077F16E /* NimbleTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -655,6 +587,9 @@
 				729F54A81A68663400CC7448 /* Quick.framework */,
 				729F54AA1A68663400CC7448 /* Quick-iOSTests.xctest */,
 				729F54AC1A68663400CC7448 /* QuickFocused-iOSTests.xctest */,
+				30BD9FD51D817E370077F16E /* Quick.framework */,
+				30BD9FD71D817E370077F16E /* Quick-tvOSTests.xctest */,
+				30BD9FD91D817E370077F16E /* QuickFocused-tvOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -674,17 +609,6 @@
 				729F541E1A6864F400CC7448 /* CMParser.m */,
 			);
 			name = CommonMark;
-			sourceTree = "<group>";
-		};
-		72C17A901A6EBA1B00212F17 /* HTML */ = {
-			isa = PBXGroup;
-			children = (
-				72C17A911A6EBA3300212F17 /* CMHTMLRenderer.h */,
-				72C17A921A6EBA3300212F17 /* CMHTMLRenderer.m */,
-				72C17A971A6EBD7800212F17 /* CMDocument+HTMLAdditions.h */,
-				72C17A981A6EBD7800212F17 /* CMDocument+HTMLAdditions.m */,
-			);
-			name = HTML;
 			sourceTree = "<group>";
 		};
 		72FE7E971A68683300F23F46 /* Resources */ = {
@@ -752,28 +676,15 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				06D9F8771A70465700C00B67 /* CMHTMLUnderlineTransformer.h in Headers */,
 				722E33E61A68E86B004DE919 /* CMTextAttributes.h in Headers */,
-				72C17A991A6EBD7800212F17 /* CMDocument+HTMLAdditions.h in Headers */,
 				729F54301A6864F400CC7448 /* CMNode.h in Headers */,
-				72772BE61A69ABB20059936C /* CMHTMLStrikethroughTransformer.h in Headers */,
 				725115E01A6970A300337419 /* CMStack.h in Headers */,
 				722E33E01A68E7E4004DE919 /* CMAttributeRun.h in Headers */,
 				729F54341A6864F400CC7448 /* CMParser.h in Headers */,
-				72772BF71A6A29810059936C /* CMHTMLScriptTransformer_Private.h in Headers */,
-				72772BFB1A6A2B5C0059936C /* CMHTMLSubscriptTransformer.h in Headers */,
-				725115FC1A69735400337419 /* Ono.h in Headers */,
-				725115FE1A69735400337419 /* ONOXMLDocument.h in Headers */,
-				72772BEC1A6A22720059936C /* CMHTMLSuperscriptTransformer.h in Headers */,
 				729F542A1A6864F400CC7448 /* CMIterator.h in Headers */,
 				729F54261A6864F400CC7448 /* CMDocument.h in Headers */,
 				728FA12F1AEED87900C7A368 /* CMDocument_Private.h in Headers */,
-				725115F51A6972AE00337419 /* CMHTMLElementTransformer.h in Headers */,
-				72772BF21A6A28A70059936C /* CMHTMLScriptTransformer.h in Headers */,
 				729F54221A6864F400CC7448 /* CMAttributedStringRenderer.h in Headers */,
-				72772BD61A699ACB0059936C /* CMHTMLUtilities.h in Headers */,
-				725116091A69760A00337419 /* CMHTMLElement.h in Headers */,
-				72C17A931A6EBA3300212F17 /* CMHTMLRenderer.h in Headers */,
 				722E33EC1A68EADA004DE919 /* CMCascadingAttributeStack.h in Headers */,
 				729F54381A6864F400CC7448 /* CMPlatformDefines.h in Headers */,
 				729F53E01A68641400CC7448 /* CocoaMarkdown.h in Headers */,
@@ -786,32 +697,19 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				725115F61A6972AE00337419 /* CMHTMLElementTransformer.h in Headers */,
 				729F54231A6864F400CC7448 /* CMAttributedStringRenderer.h in Headers */,
-				725115FF1A69735400337419 /* ONOXMLDocument.h in Headers */,
 				729F54271A6864F400CC7448 /* CMDocument.h in Headers */,
-				72772BF81A6A29810059936C /* CMHTMLScriptTransformer_Private.h in Headers */,
 				729F54351A6864F400CC7448 /* CMParser.h in Headers */,
 				722E33E11A68E7E4004DE919 /* CMAttributeRun.h in Headers */,
 				722E33E71A68E86B004DE919 /* CMTextAttributes.h in Headers */,
-				06D9F8781A70465700C00B67 /* CMHTMLUnderlineTransformer.h in Headers */,
 				729F542B1A6864F400CC7448 /* CMIterator.h in Headers */,
 				729F54311A6864F400CC7448 /* CMNode.h in Headers */,
-				7251160A1A69760A00337419 /* CMHTMLElement.h in Headers */,
-				72772BFC1A6A2B5C0059936C /* CMHTMLSubscriptTransformer.h in Headers */,
-				72C17A941A6EBA3300212F17 /* CMHTMLRenderer.h in Headers */,
-				72772BD71A699ACB0059936C /* CMHTMLUtilities.h in Headers */,
 				728FA1301AEED87900C7A368 /* CMDocument_Private.h in Headers */,
 				725115E11A6970A300337419 /* CMStack.h in Headers */,
 				729F54391A6864F400CC7448 /* CMPlatformDefines.h in Headers */,
-				72772BF31A6A28A70059936C /* CMHTMLScriptTransformer.h in Headers */,
-				725115FD1A69735400337419 /* Ono.h in Headers */,
 				72736B671A7B467E0046B957 /* CocoaMarkdown.h in Headers */,
-				72C17A9A1A6EBD7800212F17 /* CMDocument+HTMLAdditions.h in Headers */,
-				72772BED1A6A22720059936C /* CMHTMLSuperscriptTransformer.h in Headers */,
 				72C17A821A6EB75800212F17 /* CMDocument+AttributedStringAdditions.h in Headers */,
 				722E33ED1A68EADA004DE919 /* CMCascadingAttributeStack.h in Headers */,
-				72772BE71A69ABB20059936C /* CMHTMLStrikethroughTransformer.h in Headers */,
 				729F542F1A6864F400CC7448 /* CMNode_Private.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -993,6 +891,41 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
+		30BD9FC81D817E370077F16E /* Nimble.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Nimble.framework;
+			remoteRef = 30BD9FC71D817E370077F16E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		30BD9FCA1D817E370077F16E /* NimbleTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = NimbleTests.xctest;
+			remoteRef = 30BD9FC91D817E370077F16E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		30BD9FD51D817E370077F16E /* Quick.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Quick.framework;
+			remoteRef = 30BD9FD41D817E370077F16E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		30BD9FD71D817E370077F16E /* Quick-tvOSTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Quick-tvOSTests.xctest";
+			remoteRef = 30BD9FD61D817E370077F16E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		30BD9FD91D817E370077F16E /* QuickFocused-tvOSTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "QuickFocused-tvOSTests.xctest";
+			remoteRef = 30BD9FD81D817E370077F16E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		729F54941A68663400CC7448 /* Nimble.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
@@ -1125,40 +1058,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				725A60091AEC5F9F00D6342C /* utf8.c in Sources */,
-				7251160B1A69760A00337419 /* CMHTMLElement.m in Sources */,
 				729F542C1A6864F400CC7448 /* CMIterator.m in Sources */,
 				729F54361A6864F400CC7448 /* CMParser.m in Sources */,
 				72C17A831A6EB75800212F17 /* CMDocument+AttributedStringAdditions.m in Sources */,
 				725A5FF91AEC5F9F00D6342C /* houdini_html_u.c in Sources */,
 				722E33E21A68E7E4004DE919 /* CMAttributeRun.m in Sources */,
-				72772BEE1A6A22720059936C /* CMHTMLSuperscriptTransformer.m in Sources */,
 				729F54321A6864F400CC7448 /* CMNode.m in Sources */,
 				725A5FEF1AEC5F9F00D6342C /* cmark_ctype.c in Sources */,
-				72772BFD1A6A2B5C0059936C /* CMHTMLSubscriptTransformer.m in Sources */,
 				725A5FEB1AEC5F9F00D6342C /* blocks.c in Sources */,
 				725A60011AEC5F9F00D6342C /* man.c in Sources */,
-				72772BF41A6A28A70059936C /* CMHTMLScriptTransformer.m in Sources */,
 				725A60051AEC5F9F00D6342C /* references.c in Sources */,
 				725A5FF51AEC5F9F00D6342C /* houdini_href_e.c in Sources */,
 				729F54281A6864F400CC7448 /* CMDocument.m in Sources */,
-				725116001A69735400337419 /* ONOXMLDocument.m in Sources */,
 				30A07BCC1B5545A50097CEF1 /* render.c in Sources */,
-				06D9F8791A70465700C00B67 /* CMHTMLUnderlineTransformer.m in Sources */,
 				725A5FFD1AEC5F9F00D6342C /* inlines.c in Sources */,
-				72772BD81A699ACB0059936C /* CMHTMLUtilities.m in Sources */,
 				725A60031AEC5F9F00D6342C /* node.c in Sources */,
 				725115E21A6970A300337419 /* CMStack.m in Sources */,
 				725A5FED1AEC5F9F00D6342C /* buffer.c in Sources */,
-				72C17A951A6EBA3300212F17 /* CMHTMLRenderer.m in Sources */,
 				725A5FF71AEC5F9F00D6342C /* houdini_html_e.c in Sources */,
 				729F54241A6864F400CC7448 /* CMAttributedStringRenderer.m in Sources */,
 				722E33E81A68E86B004DE919 /* CMTextAttributes.m in Sources */,
 				725A600B1AEC5F9F00D6342C /* xml.c in Sources */,
-				72C17A9B1A6EBD7800212F17 /* CMDocument+HTMLAdditions.m in Sources */,
 				725A5FFF1AEC5F9F00D6342C /* iterator.c in Sources */,
 				725A60071AEC5F9F00D6342C /* scanners.c in Sources */,
 				725A5FFB1AEC5F9F00D6342C /* html.c in Sources */,
-				72772BE81A69ABB20059936C /* CMHTMLStrikethroughTransformer.m in Sources */,
 				725A5FF11AEC5F9F00D6342C /* cmark.c in Sources */,
 				722E33EE1A68EADA004DE919 /* CMCascadingAttributeStack.m in Sources */,
 			);
@@ -1183,40 +1106,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				725A600A1AEC5F9F00D6342C /* utf8.c in Sources */,
-				7251160C1A69760A00337419 /* CMHTMLElement.m in Sources */,
 				729F542D1A6864F400CC7448 /* CMIterator.m in Sources */,
 				729F54371A6864F400CC7448 /* CMParser.m in Sources */,
 				72C17A841A6EB75800212F17 /* CMDocument+AttributedStringAdditions.m in Sources */,
 				725A5FFA1AEC5F9F00D6342C /* houdini_html_u.c in Sources */,
 				722E33E31A68E7E4004DE919 /* CMAttributeRun.m in Sources */,
-				72772BEF1A6A22720059936C /* CMHTMLSuperscriptTransformer.m in Sources */,
 				729F54331A6864F400CC7448 /* CMNode.m in Sources */,
 				725A5FF01AEC5F9F00D6342C /* cmark_ctype.c in Sources */,
-				72772BFE1A6A2B5C0059936C /* CMHTMLSubscriptTransformer.m in Sources */,
 				725A5FEC1AEC5F9F00D6342C /* blocks.c in Sources */,
 				725A60021AEC5F9F00D6342C /* man.c in Sources */,
-				72772BF51A6A28A70059936C /* CMHTMLScriptTransformer.m in Sources */,
 				725A60061AEC5F9F00D6342C /* references.c in Sources */,
 				725A5FF61AEC5F9F00D6342C /* houdini_href_e.c in Sources */,
 				729F54291A6864F400CC7448 /* CMDocument.m in Sources */,
-				725116011A69735400337419 /* ONOXMLDocument.m in Sources */,
 				30A07BCD1B5545A50097CEF1 /* render.c in Sources */,
-				06D9F87A1A70465700C00B67 /* CMHTMLUnderlineTransformer.m in Sources */,
 				725A5FFE1AEC5F9F00D6342C /* inlines.c in Sources */,
-				72772BD91A699ACB0059936C /* CMHTMLUtilities.m in Sources */,
 				725A60041AEC5F9F00D6342C /* node.c in Sources */,
 				725115E31A6970A300337419 /* CMStack.m in Sources */,
 				725A5FEE1AEC5F9F00D6342C /* buffer.c in Sources */,
-				72C17A961A6EBA3300212F17 /* CMHTMLRenderer.m in Sources */,
 				725A5FF81AEC5F9F00D6342C /* houdini_html_e.c in Sources */,
 				729F54251A6864F400CC7448 /* CMAttributedStringRenderer.m in Sources */,
 				722E33E91A68E86B004DE919 /* CMTextAttributes.m in Sources */,
 				725A600C1AEC5F9F00D6342C /* xml.c in Sources */,
-				72C17A9C1A6EBD7800212F17 /* CMDocument+HTMLAdditions.m in Sources */,
 				725A60001AEC5F9F00D6342C /* iterator.c in Sources */,
 				725A60081AEC5F9F00D6342C /* scanners.c in Sources */,
 				725A5FFC1AEC5F9F00D6342C /* html.c in Sources */,
-				72772BE91A69ABB20059936C /* CMHTMLStrikethroughTransformer.m in Sources */,
 				725A5FF21AEC5F9F00D6342C /* cmark.c in Sources */,
 				722E33EF1A68EADA004DE919 /* CMCascadingAttributeStack.m in Sources */,
 			);
